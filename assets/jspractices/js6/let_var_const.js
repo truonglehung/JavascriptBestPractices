@@ -5,15 +5,15 @@
 
     const : constant 
 */
-/* Scoped */
+/* SCOPED */
 var x = 10;
 // Here x is 10
 {
     let x = 2;
-    // Here x is 2
+    // Here x is 2 
 }
 // Here x is 10
-//ex2 : for loop 
+//EX2 : FOR LOOP 
 for (let i = 0; i < 5; i++) {
     console.log(i); //i is visible thus is logged in the console as 0,1,2,....,5
 }
@@ -24,7 +24,7 @@ for (var i = 0; i < 5; i++) {
 }
 console.log(i); //i is visible here too. thus is logged as 5.
 
-/* access by global window object */
+/* ACCESS BY GLOBAL WINDOW OBJECT */
 var varA = "i am a Var variable";
 let letA = "i am let variable";
 
